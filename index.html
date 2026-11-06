@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherab Pem | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#home">Sherab<span>.</span></a>
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeToggle" type="button" aria-label="Switch to dark mode">🌙 Dark Mode</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="home-text">
+        <p class="small-title">HELLO, WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Sherab Pem</span></h1>
+        <h2>Computer System and Networking Student</h2>
+        <p>I am learning about networking, web development, and computer systems. I enjoy exploring technology and creating useful digital solutions.</p>
+        <a class="button" href="#projects">View My Projects</a>
+      </div>
+      <div class="photo-frame" id="photoFrame">
+        <span class="photo-halo" aria-hidden="true"></span>
+        <span class="photo-ring" aria-hidden="true"></span>
+        <span class="photo-dot dot-one" aria-hidden="true"></span>
+        <span class="photo-dot dot-two" aria-hidden="true"></span>
+        <span class="photo-dot dot-three" aria-hidden="true"></span>
+        <img class="profile-photo" src="profile-photo.jpg" alt="Sherab Pem profile photo">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">I am a Diploma in Computer System and Networking student at Jigme Namgyel Engineering College (JNEC). I am currently serving as the Club Secretary of the Y-PEER Club, where I continue to develop my leadership, teamwork, and communication skills. I am interested in networking, web design, and system administration. Besides my academic interests, I enjoy travelling, exploring new places, and discovering new things that broaden my knowledge and experiences. My goal is to strengthen my technical skills, gain practical experience, and become a skilled and capable IT professional.</p>
+    </section>
+
+    <section class="section light" id="skills">
+      <p class="small-title">WHAT I AM LEARNING</p>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skill-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Computer Networking</div>
+        <div class="skill">Cisco Packet Tracer</div>
+        <div class="skill">Linux Basics</div>
+        <div class="skill">Git and GitHub</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="small-title">MY PRACTICE WORK</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>A simple website to introduce myself, share my skills, and display my academic work.</p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+        <article class="project-card">
+          <h3>Device Repair Tracker</h3>
+          <p>A desktop app for recording devices and tracking repairs. Admins add, search, sort, update and export repair records, while customers log in to check the status of their own devices.</p>
+          <p class="tech">Python · Tkinter · SQLite</p>
+          <div class="certificate-actions">
+            <a class="certificate-link" href="projects/device-repair-tracker-report.pdf" target="_blank" rel="noopener">View Report</a>
+            <a class="certificate-link secondary-link" href="projects/device_repair_tracker.py" download>Source Code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Network Design and Implementation Using BGP</h3>
+          <p>A multihomed hospital network built in Cisco Packet Tracer. Three routers, each in its own Autonomous System, run eBGP with a backup path, and an extended ACL keeps the patient database hidden while the web portal stays public.</p>
+          <p class="tech">Cisco Packet Tracer · eBGP · Access Control Lists</p>
+          <div class="certificate-actions">
+            <a class="certificate-link" href="projects/bgp-hospital-network-report.pdf" target="_blank" rel="noopener">View Report</a>
+            <a class="certificate-link secondary-link" href="projects/bgp-hospital-network-report.pdf" download>Download PDF</a>
+          </div>
+        </article>
+      </div>
+      <p class="note">Edit these project descriptions to match your actual work and progress.</p>
+    </section>
+
+    <section class="section" id="education">
+      <p class="small-title">MY BACKGROUND</p>
+      <h2 class="section-title">Education</h2>
+      <div class="education-card">
+        <h3>Diploma in Computer System and Networking</h3>
+        <p class="school">Jigme Namgyel Engineering College (JNEC)</p>
+        <p>Currently studying computer systems, networking, and related IT technologies through coursework and practical laboratory sessions to develop technical knowledge and hands-on skills.</p>
+        <img class="edu-photo" src="images/jnec-campus.jpg" alt="Aerial view of Jigme Namgyel Engineering College campus" loading="lazy">
+      </div>
+      <div class="education-card" style="margin-top: 18px;">
+        <h3>High School Education</h3>
+        <p class="school">Motithang Higher Secondary School</p>
+        <p>Completed my high school education, building a strong academic foundation and developing essential learning and communication skills.</p>
+        <img class="edu-photo" src="images/motithang-hss.jpg" alt="Motithang Higher Secondary School building" loading="lazy">
+      </div>
+    </section>
+
+    
+
+  <section class="section light" id="certificates">
+    <p class="small-title">ACHIEVEMENTS</p>
+    <h2 class="section-title">Certificates</h2>
+    <p class="section-text">Courses and networking certifications I have completed to build my technical skills.</p>
+    <div class="project-grid certificate-grid">
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏅</div>
+        <h3>Python Tkinter: Design, Build &amp; Integrate GUIs</h3>
+        <p>Coursera • EDUCBA • Sep 13, 2026</p>
+        <div class="certificate-actions">
+          <a class="certificate-link" href="certificates/python-tkinter-coursera.pdf" target="_blank" rel="noopener">View Certificate</a>
+          <a class="certificate-link secondary-link" href="certificates/python-tkinter-coursera.pdf" download>Download PDF</a>
+        </div>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏅</div>
+        <h3>Master Full-Stack Web Development with Laravel &amp; PHP</h3>
+        <p>Coursera • Board Infinity • Sep 2, 2026</p>
+        <div class="certificate-actions">
+          <a class="certificate-link" href="certificates/full-stack-laravel-php-coursera.pdf" target="_blank" rel="noopener">View Certificate</a>
+          <a class="certificate-link secondary-link" href="certificates/full-stack-laravel-php-coursera.pdf" download>Download PDF</a>
+        </div>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏅</div>
+        <h3>Becoming a Linux Server Admin</h3>
+        <p>Coursera • Packt • Sep 13, 2026</p>
+        <div class="certificate-actions">
+          <a class="certificate-link" href="certificates/linux-server-admin-coursera.pdf" target="_blank" rel="noopener">View Certificate</a>
+          <a class="certificate-link secondary-link" href="certificates/linux-server-admin-coursera.pdf" download>Download PDF</a>
+        </div>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏅</div>
+        <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+        <p>Cisco Networking Academy • JNEC • 27 Jul 2026</p>
+        <div class="certificate-actions">
+          <a class="certificate-link" href="certificates/ccna-switching-routing-wireless.pdf" target="_blank" rel="noopener">View Certificate</a>
+          <a class="certificate-link secondary-link" href="certificates/ccna-switching-routing-wireless.pdf" download>Download PDF</a>
+        </div>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏅</div>
+        <h3>CCNA: Introduction to Networks</h3>
+        <p>Cisco Networking Academy • JNEC • 27 Jul 2026</p>
+        <div class="certificate-actions">
+          <a class="certificate-link" href="certificates/ccna-introduction-to-networks.pdf" target="_blank" rel="noopener">View Certificate</a>
+          <a class="certificate-link secondary-link" href="certificates/ccna-introduction-to-networks.pdf" download>Download PDF</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="interests">
+    <p class="small-title">OUTSIDE THE CLASSROOM</p>
+    <h2 class="section-title">Interests</h2>
+    <p class="section-text">Things I enjoy doing in my free time.</p>
+    <div class="project-grid">
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🏀</div>
+        <h3>Playing Basketball</h3>
+        <p>I like playing basketball with friends. It keeps me active and teaches me teamwork.</p>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🥾</div>
+        <h3>Going for Hiking</h3>
+        <p>I enjoy hiking, exploring new trails and spending time in nature.</p>
+      </article>
+      <article class="project-card certificate-card">
+        <div class="certificate-icon" aria-hidden="true">🎧</div>
+        <h3>Listening to Songs</h3>
+        <p>I love listening to songs to relax, stay motivated and enjoy my free time.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+      <p class="small-title">GET IN TOUCH</p>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-text">Feel free to contact me for learning opportunities, collaboration, or project discussions.</p>
+      <div class="contact-details">
+        <p><strong>Email:</strong> <a href="mailto:05250188.jnec@rub.edu.bt">05250188.jnec@rub.edu.bt</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/rune561" target="_blank" rel="noopener">github.com/rune561</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Sherab Pem. Personal Portfolio.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
